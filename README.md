@@ -1,2 +1,2 @@
-# https://ribas-codes.github.io/html-study/
-Site para aprendizado de elementos do HTML e CSS
+# Site para aprendizado
+Acesse o site clicando aqui [aqui](https://ribas-codes.github.io/html-study/)
