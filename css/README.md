@@ -1,1 +1,1 @@
-#Pasta destinada ao estilo do site.
+Pasta destinada ao estilo do site.
