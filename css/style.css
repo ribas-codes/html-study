@@ -1,18 +1,22 @@
+
+/* Formatação do body */
+
 body {
+
     background-image: url(../imgs/discord-background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: 90%;
     font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 5%;
     font-family: 'Alegreya Sans', sans-serif;
 }
 
+/* Elementos principais de texto */
+
 .div1{
-    margin-left: 80px;
-    margin-right: 80px;
+    max-width: 100%;
+    height: auto;
 }
 
 .div1 p {
@@ -43,41 +47,43 @@ body {
     font-size: 0.9em;
 }
 
-figure{
-    padding: 4px;
+/* Imagem da evolução do HTML */
+
+.imgbox{
     text-align: center;
 }
 
-#htmlfav img{
-    width: 50%;
+.imgbox img{
+    max-width: 100%;
+    height: auto;
     transition: 0.2s;
     box-shadow: 4px 4px 3px black;
 }
 
-#htmlfav img:hover{
-    width: 52%;
+.imgbox img:hover{
+    transform: scale(1.10);
     transition: 0.2s;
 }
 
-#githubfav img{
-    width: 15%;
-    transition: 0.2s;
-}
+/* Imagem do ícone */
 
-#githubfav img:hover{
-    width: 17%;
-    transition: 0.2s;
-}
-
-#evohtml{
-    background-color: #DEE2E6;
-    padding: 1px;
-    width: 30%;
+.gitimg{
     text-align: center;
-    margin: auto;
-    margin-bottom: 50px;
-    box-shadow: 4px 4px 4px black;
 }
+
+.gitimg img{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    transition: 0.2s;
+}
+
+.gitimg img:hover{
+    transform: scale(1.10);
+    transition: 0.2s;
+}
+
+/* Formatação dos Links */
 
 a:link{
     color: #fca311;
