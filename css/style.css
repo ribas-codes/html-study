@@ -14,36 +14,38 @@ body {
 
 /* Elementos principais de texto */
 
-.div1{
+.textos{
     max-width: 100%;
     height: auto;
 }
 
-.div1 p {
+.textos p {
     color: aliceblue;
-    padding: 10px;
-    margin-top: 60px;
     font-size: 1.2em;
     text-align: center;
 }
 
-.div1 h1{
+.textos h1{
     text-align: center;
     color: #e9ecef;
     margin-top: 50px;
     font-size: 2,5em;
 }
 
-.div1 ul{
+.textos ul{
     color: aliceblue;
     padding: 10px;
-    margin-top: 60px;
     font-size: 1.2em;
 }
 
-.div1 li{
+.textos ol{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.textos li{
     padding: 12px;
-    text-align: justify;
     font-size: 0.9em;
 }
 
@@ -99,4 +101,29 @@ a:hover{
     color: #e85d04;
     text-shadow: 2px 2px black;
     transition: 1s;
+}
+
+/* Formatação de tabelas */
+
+.tabelas table{
+    background-color:#E9ECEF;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabelas td,th{
+    border: 3px solid #212529;
+    padding: 4px;
+    text-align: center;
+    color: #212529;
+    transition: 0.6s;
+}
+
+.tabelas td:hover{
+    transition: 0.6s;
+    text-shadow: 1px 1px black;
+}
+
+.tabelas tr:nth-child(even){
+    background-color: #dddddd;
 }
