@@ -6,9 +6,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Ribas - Posicionamento</title>
+        <title>Portal - Position</title>
 
-        <link rel="shortcut icon" href="imgs/pos-icon.png">
+        <link rel="shortcut icon" href="imgs/logo-site.png">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
@@ -29,6 +30,15 @@
                 color: aliceblue
             }
 
+            .textos{
+                width: 80%;
+                margin: 0 auto;
+                
+            }
+
+            .textos a{
+                font-size: 1.2em
+            }
             .textos a:link{
                 color: #fca311;
                 text-decoration: none;
@@ -109,8 +119,16 @@
                 box-shadow: 2px 3px  rgba(0, 0, 0, 0.555);
             }
 
+            footer{
+                position: absolute;
+                right: 0;
+                left: 0;
+                background-color: #272729f1;
+                box-shadow: 2px 3px  rgba(0, 0, 0, 0.555);
+            }
+
             .main{
-                margin-top: 8%
+                margin-top: 12%
             }
 
             .textos p {
@@ -138,13 +156,23 @@
                 <div class="bottomright">Abaixo à direita</div>
                 <div class="center">Centro</div>
             </div>
+            <br>
 
+            <h3 style="text-indent: 8%;">Segue os links para outras páginas:</h3>
             <div class="textos">
-                <p><a href="index.html">Clique aqui</a> para voltar à página inicial.</p>
+                <ul style="text-indent: .3em;">
+                    <li><a href="index.html">Página principal</a></li>
+                    <li><a href="linguagens.html">Um pouco sobre as linguagens</a></li>
+                    <li><a href="#"><b>Posicionamentos de elementos</b></a></li>
+                    
+                </ul>
             </div>
+
         </div>
         
-
+        <footer>
+            <p>Página reservada ao uso dos posicionamentos.</p>
+        </footer>
     </body>
 
 </html>
