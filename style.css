@@ -1,0 +1,186 @@
+
+/* Formatação do body */
+
+body {
+    background-image: url(../imgs/discord-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Outras formatações */
+
+b{
+    font-weight: bold;
+}
+
+strong{
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+ol{
+    list-style-type: decimal;
+}
+
+.sl{
+    border: .1px solid rgba(109, 107, 107, 0.582);
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+/* Header, Footer */
+
+header, footer{
+    background-color: #303133cc;
+    padding: 40px;
+    box-shadow: 1px 1px 2px black;
+    text-align: center
+}
+
+header h1{
+    font-weight: bold;
+    color: #e9ecef;
+    font-size: 1.4em;
+}
+
+header, footer p{
+    color: #e9ecef;
+    font-size: 1.1em;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+/* Elementos principais de texto */
+.textos {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textos p {
+    color: aliceblue;
+    font-size: 1.1em;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.textos h1{
+    text-align: left;
+    font-weight: bold;
+    color: #e9ecef;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.textos h2{
+    text-align: left;
+    font-weight: bold;
+    color: #e9ecef;
+    font-size: 1.4em;
+    margin-bottom: 2px;
+}
+
+.textos h3{
+    text-align: left;
+    font-weight: bold;
+    color: #e9ecef;
+    font-size: 1.3em;
+}
+
+.listas{
+    margin-left: 5%;
+    color: aliceblue;
+    font-size: 1.1em;
+}
+.listas p{
+    margin-top: 1px;
+    margin-bottom: 20px;
+    font-size: .8em
+}
+.listas ul{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.listas ol{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.listas li{
+    padding: 12px;
+    font-size: 0.9em;
+}
+
+/* Imagens */
+
+#galeria{
+    text-align: center;
+}
+#galeria img{
+    max-width: 50%;
+}
+/* Formatação dos Links */
+
+.textos a:link{
+    color: #fca311;
+    text-decoration: none;
+    transition: 1s;
+}
+.textos a:visited{
+    color: #fca311;
+    transition: 1s;
+    text-decoration: none;
+}
+.textos a:hover{
+    color: #e85d04;
+    text-shadow: 2px 2px black;
+    transition: 1s;
+}
+
+/* Formatação de tabelas */
+
+.tabelas table{
+    background-color:#E9ECEF;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.tabelas td,th{
+    border: 3px solid #212529;
+    padding: 4px;
+    text-align: center;
+    color: #212529;
+    transition: 0.6s;
+}
+
+.tabelas td:hover{
+    transition: 0.6s;
+    cursor: grab;
+    text-shadow: 1px 1px black;
+}
+
+.tabelas tr:nth-child(even){
+    background-color: #dddddd;
+}
