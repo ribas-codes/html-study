@@ -2,7 +2,6 @@
 /* Formatação do body */
 
 body {
-
     background-image: url(../imgs/discord-background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +12,14 @@ body {
 
 /* Outras formatações */
 
+b{
+    font-weight: bold;
+}
+
+strong{
+    font-weight: bold;
+}
+
 ul{
     list-style-type: disc;
 }
@@ -21,10 +28,18 @@ ol{
     list-style-type: decimal;
 }
 
+.sl{
+    border: .1px solid rgba(109, 107, 107, 0.582);
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .container{
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 50px;
 }
 
 /* Header, Footer */
@@ -36,83 +51,91 @@ header, footer{
     text-align: center
 }
 
-header, footer p{
-    color: #dddddd;
-    font-size: 1.3em;
+header h1{
     font-weight: bold;
+    color: #e9ecef;
+    font-size: 1.4em;
+}
+
+header, footer p{
+    color: #e9ecef;
+    font-size: 1.1em;
 }
 
 footer{
     margin-top: 30px;
 }
-/* Elementos principais de texto */
 
+/* Elementos principais de texto */
+.textos {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .textos p {
     color: aliceblue;
-    font-size: 1.2em;
-    text-align: center;
+    font-size: 1.1em;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .textos h1{
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     color: #e9ecef;
-    margin-top: 50px;
     font-size: 1.5em;
+    margin-bottom: 15px;
 }
 
-.textos ul{
+.textos h2{
+    text-align: left;
+    font-weight: bold;
+    color: #e9ecef;
+    font-size: 1.4em;
+    margin-bottom: 2px;
+}
+
+.textos h3{
+    text-align: left;
+    font-weight: bold;
+    color: #e9ecef;
+    font-size: 1.3em;
+}
+
+.listas{
+    margin-left: 5%;
+    color: aliceblue;
+    font-size: 1.1em;
+}
+.listas p{
+    margin-top: 1px;
+    margin-bottom: 20px;
+    font-size: .8em
+}
+.listas ul{
     color: aliceblue;
     padding: 10px;
     font-size: 1.2em;
 }
 
-.textos ol{
+.listas ol{
     color: aliceblue;
     padding: 10px;
     font-size: 1.2em;
 }
 
-.textos li{
+.listas li{
     padding: 12px;
     font-size: 0.9em;
 }
 
-/* Imagem da evolução do HTML */
+/* Imagens */
 
-.imgbox{
-    text-align: center;
+#galeria img{
+    max-width: 50%;
 }
-
-.imgbox img{
-    max-width: 80%;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    transition: 0.2s;
-    box-shadow: 4px 4px 3px black;
-}
-
-.imgbox img:hover{
-    transform: scale(1.10);
-    transition: 0.2s;
-}
-
-/* Imagem do ícone */
-
-.gitimg{
-    text-align: center;
-}
-
-.gitimg img{
-    max-width: 150px;
-    transition: 0.2s;
-}
-
-.gitimg img:hover{
-    transform: scale(1.10);
-    transition: 0.2s;
-}
-
 /* Formatação dos Links */
 
 .textos a:link{
@@ -151,7 +174,7 @@ footer{
 
 .tabelas td:hover{
     transition: 0.6s;
-    font-weight: 500;
+    cursor: grab;
     text-shadow: 1px 1px black;
 }
 
