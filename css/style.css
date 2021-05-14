@@ -88,13 +88,12 @@ header, footer{
 @media only screen and (min-width: 768px){
 
     .container{
-        margin-top: 5%;
+        margin-top: 15%;
     }
 
     .fixo{
         background-color: #303133e3;
         flex-direction: row;
-        position: relative;
     }
 
     .menuconfig{
