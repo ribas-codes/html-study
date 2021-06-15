@@ -68,7 +68,7 @@ ol{
 /* Scrollbar */
 
 ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.877); 
+    background: rgba(0, 0, 0, 0.877);
 }
 
 ::-webkit-scrollbar {
@@ -212,6 +212,15 @@ footer{
     font-size: 1.3em;
 }
 
+#contatos p{
+    text-align: center;
+}
+#contatos h1{
+    text-align: center;
+}
+
+/* Elementos de listas */
+
 .listas{
     margin-left: 5%;
     color: aliceblue;
@@ -260,6 +269,79 @@ a{
 }
 a:hover{
     color: rgb(250, 107, 64);
+}
+
+#ativo{
+    color: rgb(255, 72, 0);
+}
+
+/* Formulário */
+
+.form{
+    background-color: #000000b8;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.formcomp{
+    padding: 30px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.formcomp input{
+    width: 60%;
+    height: 25px;
+    background-color: #e9ecef00;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    color: aliceblue;
+    font-size: 0.8em;
+    border-bottom: 2px solid rgb(255, 72, 0);
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.formcomp label{
+    border-bottom: 1px solid white;
+}
+
+.formcomp input:focus{
+    outline: none;
+}
+
+.formcomp input[type=number]::-webkit-outer-spin-button,
+.formcomp input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+#submit{
+    border-radius: 6px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#submit input{
+    background-color:rgb(255, 72, 0);
+    border: none;
+    color: aliceblue;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#submit input:hover{
+    background-color:rgb(224, 52, 0);
+    
+}
+
+#submit input:active{
+    box-shadow: 0 0 7px rgb(255, 72, 0);
 }
 
 /* Formatação de tabelas */
