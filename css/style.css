@@ -133,6 +133,15 @@ footer{
     .menuconfig li{
         margin-top: 7px
     }
+    #floatright{
+        text-align: justify;
+        text-justify: auto;
+        margin-right: 45%;
+    }
+    #duvidas p{
+        text-align: justify;
+        text-justify: auto;
+    }
 }
 
 @media screen and (min-width: 600px){
@@ -155,6 +164,15 @@ footer{
     }
     .menuconfig li{
         margin-top: 7px
+    }
+    #floatright{
+        text-align: justify;
+        text-justify: auto;
+        margin-right: 45%;
+    }
+    #duvidas p{
+        text-align: justify;
+        text-justify: auto;
     }
 }
 
@@ -187,6 +205,14 @@ footer{
         cursor: pointer;
         border-color: rgb(224, 52, 0);
         transform: translateY(-3%)
+    }
+    #duvidas p{
+        text-align: justify;
+        text-justify: auto;
+        margin-right: 42%;
+    }
+    #duvidas img{
+        max-width: 330px;
     }
 }
 
@@ -237,6 +263,7 @@ footer{
     text-align: center;
 }
 
+
 /* Elementos de listas */
 
 .listas{
@@ -283,7 +310,12 @@ footer{
     border-radius: 5px;
     transition-duration: .6s;
 }
-
+#duvidas img{
+    width: 40%;
+    border: 2px solid rgb(255, 72, 01);
+    float: right;
+    cursor: pointer;
+}
 /* Formatação dos Links */
 
 a{
