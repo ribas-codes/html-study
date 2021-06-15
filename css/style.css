@@ -112,7 +112,10 @@ footer{
 }
 
 @media screen and (max-width: 599px){
-
+    
+    header{
+        background-color: #020202;
+    }
     .container{
         margin-top: 65%;
     }
@@ -124,10 +127,19 @@ footer{
         border-color: rgb(224, 52, 0);
         transform: translateX(5%);
     }
+    .menuconfig{
+        padding-bottom: 15px;
+    }
+    .menuconfig li{
+        margin-top: 7px
+    }
 }
 
 @media screen and (min-width: 600px){
 
+    header{
+        background-color: #020202;
+    }
     .container{
         margin-top: 40%;
     }
@@ -137,6 +149,12 @@ footer{
     #galeria img:hover{
         border-color: rgb(224, 52, 0);
         transform: translateX(5%)
+    }
+    .menuconfig{
+        padding-bottom: 15px;
+    }
+    .menuconfig li{
+        margin-top: 7px
     }
 }
 
@@ -248,6 +266,12 @@ footer{
     font-size: 0.9em;
 }
 
+#sobre ul{
+    margin-left: 8%;
+    cursor: pointer;
+    color:rgb(243, 119, 70)
+}
+
 /* Imagens */
 
 #galeria{
@@ -273,6 +297,8 @@ a:hover{
 
 #ativo{
     color: rgb(255, 72, 0);
+    border-bottom: 1px solid rgb(255, 72, 0);
+    padding-bottom: 4px;
 }
 
 /* Formulário */
@@ -291,7 +317,7 @@ a:hover{
 }
 
 .formcomp input{
-    width: 60%;
+    width: 70%;
     height: 25px;
     background-color: #e9ecef00;
     border-top-style: hidden;
@@ -312,6 +338,21 @@ a:hover{
     -webkit-appearance: none;
     margin: 0;
 
+}
+
+.formcomp textarea{
+    width: 70%;
+    outline: none;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 2px solid rgb(255, 72, 0);
+    padding: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 0.9em;
 }
 
 #submit{
