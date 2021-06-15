@@ -303,10 +303,6 @@ a:hover{
     font-family: 'Alegreya Sans', sans-serif;
 }
 
-.formcomp label{
-    border-bottom: 1px solid white;
-}
-
 .formcomp input:focus{
     outline: none;
 }
