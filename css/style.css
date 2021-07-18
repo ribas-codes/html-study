@@ -111,6 +111,64 @@ footer{
     z-index: 1030;
 }
 
+#esp-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#esp-items .esp-cont h2{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    margin: 5px 0 25px 0;
+    font-size: 22px
+}
+
+.esp-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 70%;
+    max-width: 100px;
+    margin-top: 20px;
+    box-shadow: 6px 6px 0 rgb(238, 86, 15);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding: 15px;
+    background-color: white;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+.esp-cont .iicon{
+    margin: 0 auto;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.esp-cont:hover .iicon{
+    color:rgb(224, 52, 0)
+}
+
+.esp-cont:hover{
+    cursor: pointer;
+    box-shadow: 12px 12px 2px rgb(238, 86, 15);
+}
+
+#esp-items img{
+    width: 70%;
+    max-width: 250px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
 @media screen and (max-width: 599px){
     
     header{
@@ -141,6 +199,10 @@ footer{
     #duvidas p{
         text-align: justify;
         text-justify: auto;
+    }
+    .esp-cont{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -179,7 +241,7 @@ footer{
 @media only screen and (min-width: 768px){
 
     .container{
-        margin-top: 10%;
+        margin-top: 13%;
     }
 
     .fixo{
@@ -295,6 +357,7 @@ footer{
 
 #sobre ul{
     margin-left: 8%;
+    cursor: pointer;
     color:rgb(243, 119, 70)
 }
 
